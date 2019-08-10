@@ -56,8 +56,8 @@ def Mini_batch_grad_descent (Test_im, Test_lb ,Train_im , Train_lb , Momentum = 
     Error_list =[]
 
             
-    W_1 = np.random.rand (Hidden_size  , 784 )*0.0001
-    W_2 = np.random.rand (Out_size , Hidden_size)*0.0001
+    W_1 = np.random.rand (Hidden_size  , 784 )*0.001
+    W_2 = np.random.rand (Out_size , Hidden_size)*0.001
     Bias_1 = np.random.rand ( Hidden_size, 1)*0
     Bias_2 = np.random.rand ( Out_size, 1)*0
     while (epoch <15):
